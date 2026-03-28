@@ -6,6 +6,11 @@ Welcome to the documentation for the insilijo multiomics ecosystem.
 
 - [Getting Started](getting-started.md) — upload your first dataset and run an analysis
 - [Data Formats](data-formats.md) — accepted file formats and how to structure your data
+- [Preprocessing](preprocessing.md) — normalisation, imputation, log transformation, and batch correction
+- [Statistical Analysis](stats.md) — differential abundance, correlation, and longitudinal models
+- [Clustering](clustering.md) — PCA, UMAP, hierarchical clustering, and k-means
+- [Network Analysis](network.md) — metabolite network construction and pathway enrichment
+- [Multi-Omics](multiomics.md) — integrating multiple datasets from the same study
 - [Demo Datasets](demos.md) — built-in demo studies to explore before uploading your own data
 - [FAQ](faq.md)
 
