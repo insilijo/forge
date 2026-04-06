@@ -36,7 +36,7 @@ Browse the [docs/](docs/) folder or jump directly to:
 - **Question** — questions about expected behaviour or how to use a feature
 
 Please include:
-- Which tool the issue relates to (GrAndMA or GIZMO)
+- Which tool the issue relates to (Forge or GIZMO)
 - Steps to reproduce (for bugs)
 - What you expected vs. what happened
 - Relevant data types, file formats, or analysis steps
