@@ -11,7 +11,9 @@ GrAndMA is the main user-facing tool in the insilijo ecosystem. It provides a br
 - Run statistical analysis (differential abundance, correlation, longitudinal models)
 - Cluster samples and features with PCA, UMAP, hierarchical clustering, and k-means
 - Build and explore metabolite networks with GIZMO-backed knowledge graph annotation
-- Integrate multiple omics datasets from the same study (multi-omics)
+- Integrate multiple omics datasets (MCIA, JIVE, MOFA+, SNF, PCA/PLS-DA on concatenated matrix, correlation network)
+- Color and shape scatter plots post-hoc by any metadata column from any linked dataset
+- Save and reload analyses; recent runs are accessible from a per-section dropdown
 - Explore 14 built-in paired microbiome–metabolome demo datasets
 
 ## Source
