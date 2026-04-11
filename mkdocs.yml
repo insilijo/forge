@@ -1,0 +1,58 @@
+site_name: forge
+site_url: https://insilijo.github.io/forge
+site_description: Documentation for the insilijo multiomics ecosystem
+repo_url: https://github.com/insilijo/forge
+repo_name: insilijo/forge
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Guides:
+    - Getting Started: getting-started.md
+    - Data Formats: data-formats.md
+    - Preprocessing: preprocessing.md
+    - Statistical Analysis: stats.md
+    - Clustering: clustering.md
+    - Network Analysis: network.md
+    - Multi-Omics: multiomics.md
+    - Biomarker Discovery: biomarkers.md
+    - Drug Discovery: drug-discovery.md
+    - Untargeted Metabolomics: untargeted.md
+    - Demo Datasets: demos.md
+  - Tools:
+    - forge (web platform): tools/grandma.md
+    - GIZMO: tools/gizmo.md
+  - Help:
+    - FAQ: faq.md
+    - Report an Issue: issues.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true

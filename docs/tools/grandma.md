@@ -20,8 +20,8 @@ GrAndMA is the main user-facing tool in the insilijo ecosystem. It provides a br
 
 ## Source
 
-[github.com/insilijo/GrAndMA](https://github.com/insilijo/GrAndMA)
+[github.com/insilijo/forge](https://github.com/insilijo/forge)
 
 ## Reporting issues
 
-Use the [forge issue tracker](https://github.com/insilijo/forge/issues/new/choose) and specify GrAndMA in your report.
+[Open an issue](https://github.com/insilijo/forge/issues/new/choose) on the forge issue tracker.
