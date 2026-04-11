@@ -11,6 +11,9 @@ Welcome to the documentation for the insilijo multiomics ecosystem.
 - [Clustering](clustering.md) — PCA, UMAP, hierarchical clustering, and k-means
 - [Network Analysis](network.md) — metabolite network construction and pathway enrichment
 - [Multi-Omics](multiomics.md) — integrating multiple datasets from the same study
+- [Biomarker Discovery](biomarkers.md) — Discomarker (elastic net + SHAP) and MetaSurv (survival analysis)
+- [Drug Discovery](drug-discovery.md) — Ducky target ranking and Chips fragment search
+- [Untargeted Metabolomics](untargeted.md) — mzML processing, spectral annotation, and feature extraction
 - [Demo Datasets](demos.md) — built-in demo studies to explore before uploading your own data
 - [FAQ](faq.md)
 
