@@ -38,8 +38,7 @@ If you know which part of the platform is involved, note it in the title:
 | Network analysis | `network` |
 | Multi-omics integration | `multiomics` |
 | Biomarker discovery (Discomarker / MetaSurv) | `biomarkers` |
-| Drug discovery (Ducky / Chips) | `drug-discovery` |
-| Untargeted / Oredigger | `untargeted` |
+| Untargeted metabolomics | `untargeted` |
 | GIZMO knowledge graph | `gizmo` |
 | GeMMA microbiome integration | `gemma` |
 | Docs | `docs` |

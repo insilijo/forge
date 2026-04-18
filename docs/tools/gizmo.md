@@ -1,8 +1,8 @@
 # GIZMO
 
-**Graph-Integrated Zone of Metabolite Operations** — the metabolite knowledge graph underlying GrAndMA's network analysis.
+**Graph-Integrated Zone of Metabolite Operations** — the metabolite knowledge graph that powers GrAndMA's network analysis.
 
-GIZMO provides the metabolite-centred reaction graph that powers network construction, pathway annotation, and cross-database identifier mapping in GrAndMA. It is an open-source Python library used as a backend dependency.
+GIZMO is the backend library GrAndMA uses for network construction, pathway annotation, and cross-database identifier mapping. Most GrAndMA users never interact with it directly — it runs underneath the Network Analysis and annotation features. This page is for developers, integrators, or curious users who want to understand how those features work.
 
 ## What it does
 

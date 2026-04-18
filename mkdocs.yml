@@ -1,6 +1,6 @@
 site_name: forge
 site_url: https://insilijo.github.io/forge
-site_description: Documentation for the insilijo multiomics ecosystem
+site_description: Wiki for GrAndMA — the multi-omics analysis platform
 repo_url: https://github.com/insilijo/forge
 repo_name: insilijo/forge
 edit_uri: edit/main/docs/
@@ -18,12 +18,10 @@ nav:
     - Network Analysis: network.md
     - Multi-Omics: multiomics.md
     - Biomarker Discovery: biomarkers.md
-    - Drug Discovery: drug-discovery.md
     - Untargeted Metabolomics: untargeted.md
     - Demo Datasets: demos.md
-  - Tools:
-    - forge (web platform): tools/grandma.md
-    - GIZMO: tools/gizmo.md
+  - Backend:
+    - GIZMO knowledge graph: tools/gizmo.md
   - Help:
     - FAQ: faq.md
     - Report an Issue: issues.md

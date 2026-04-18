@@ -1,32 +1,6 @@
 # Untargeted Metabolomics
 
-GrAndMA supports untargeted metabolomics workflows through two complementary paths: the Oredigger app for processing raw mzML files within a dataset context, and the Untargeted pipeline for project-level mzML batch processing with spectral annotation.
-
----
-
-## Oredigger (dataset-level)
-
-Oredigger processes raw mzML files attached to a dataset and produces an enriched feature table and a neutral loss network.
-
-### What it does
-
-1. Reads MS2 spectra from each mzML file using a streaming parser
-2. Deconvolves chimeric spectra
-3. Annotates features with collision cross section (CCS) estimates where ion mobility data is present
-4. Identifies neutral losses and constructs a neutral loss network (feature–feature edges keyed by Δm/z)
-5. Writes an enriched feature Parquet and a neutral loss network TSV to `MEDIA_ROOT/oredigger/<run_id>/`
-
-### Requirements
-
-- A dataset with one or more `.mzML` files attached via the Upload step
-- A completed preprocessing run is not required — Oredigger operates on raw spectra
-
-### Output
-
-| File | Contents |
-|------|----------|
-| `enriched_features.parquet` | Per-feature table with m/z, RT, CCS, precursor info, deconvolution flag |
-| `nl_network.tsv` | Edge list: feature pairs linked by neutral loss Δm/z with loss identity |
+GrAndMA's untargeted pipeline handles batch mzML upload, indexing, feature extraction, and spectral annotation across a whole project. Raw-spectrum features such as CCS extraction, chimeric deconvolution, and neutral-loss networks run inline as part of feature extraction.
 
 ---
 

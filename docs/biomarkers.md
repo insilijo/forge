@@ -26,14 +26,14 @@ Discovers candidate biomarkers using regularised regression with SHAP-based feat
 |-----------|-------------|
 | Outcome column | Metadata column to predict (binary or continuous) |
 | Group column | Optional stratification variable for CV splits |
-| Top N targets | Number of top SHAP features to flag as target ID candidates |
+| Top N features | Number of top SHAP features to retain for downstream analysis |
 
 ### Results
 
 - **SHAP ranking** — features ordered by mean absolute SHAP value
 - **Model metrics** — cross-validated performance (AUC for classification, R² for regression)
 - **Cluster labels** — sample subtype assignments (if clustering enabled)
-- **Target ID candidates** — top features passed forward to the Ducky drug discovery pipeline
+- **Top feature table** — candidates for follow-up validation (MetaSurv, orthogonal assays, manual review)
 
 ---
 
