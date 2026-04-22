@@ -25,6 +25,9 @@ nav:
     - GeMMA: microbiome/gemma.md
     - HUMAnN3: microbiome/humann3.md
     - MaAsLin2: microbiome/maaslin.md
+    - MACADAM: microbiome/macadam.md
+    - MelonnPan: microbiome/melonnpan.md
+    - MIMOSA2: microbiome/mimosa2.md
   - Backend:
     - GIZMO knowledge graph: tools/gizmo.md
   - Help:

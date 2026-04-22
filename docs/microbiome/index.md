@@ -26,6 +26,9 @@ available modules with one-line descriptions:
 | GeMMA     | Community genome-scale metabolic model + punch differential + concordance.    | Paired metabolomics dataset (HMDB-annotated preferred). |
 | HUMAnN3   | MetaCyc pathway abundance from a pre-computed HUMAnN3 run; Wilcoxon per path. | Attached `pathabundance_cpm.tsv` (role `humann3_pathabundance`). |
 | MaAsLin2  | General linear (or linear-mixed) model for microbial feature ↔ metadata.      | *Coming soon — runner not wired yet.*                   |
+| MACADAM   | Per-taxon metabolic pathway completeness (MetaCyc/KEGG) from taxonomy.         | *Coming soon.*                                          |
+| MelonnPan | Elastic-net prediction of metabolite profiles from microbiome composition.    | *Coming soon — R-bridge pending.*                       |
+| MIMOSA2   | Community-level Metabolic Potential + per-metabolite microbiome attribution.  | *Coming soon — R-bridge pending.*                       |
 
 Modules are greyed out when their prerequisites aren't met — hover for
 the reason.
@@ -43,7 +46,10 @@ overlapping pathway or taxon identifiers.
 
 - [GeMMA](gemma.md) — community metabolic model, punch, concordance, Steiner subnetworks.
 - [HUMAnN3](humann3.md) — MetaCyc pathway differential (FASTQ → `pathabundance` → Wilcoxon).
-- [MaAsLin2](maaslin.md) — microbial feature association modelling (placeholder).
+- [MaAsLin2](maaslin.md) — microbial feature association modelling *(placeholder)*.
+- [MACADAM](macadam.md) — per-taxon pathway completeness from taxonomy *(placeholder)*.
+- [MelonnPan](melonnpan.md) — statistical microbiome → metabolite prediction *(placeholder)*.
+- [MIMOSA2](mimosa2.md) — metabolite-centric CMP scoring + taxon attribution *(placeholder)*.
 
 ## Reproducibility
 
