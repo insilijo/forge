@@ -20,6 +20,11 @@ nav:
     - Biomarker Discovery: biomarkers.md
     - Untargeted Metabolomics: untargeted.md
     - Demo Datasets: demos.md
+  - Microbiome:
+    - Overview: microbiome/index.md
+    - GeMMA: microbiome/gemma.md
+    - HUMAnN3: microbiome/humann3.md
+    - MaAsLin2: microbiome/maaslin.md
   - Backend:
     - GIZMO knowledge graph: tools/gizmo.md
   - Help:

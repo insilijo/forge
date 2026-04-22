@@ -22,6 +22,15 @@ forge is the canonical reference for using GrAndMA.
 - [Biomarker Discovery](biomarkers.md) — elastic net + SHAP, survival analysis
 - [Untargeted Metabolomics](untargeted.md) — mzML processing and spectral annotation
 
+## Microbiome
+
+Portal that hosts every microbiome-specific module. Each module is independently runnable; pick the one that answers your question.
+
+- [Microbiome overview](microbiome/index.md) — portal concepts, module registry, module gating
+- [GeMMA](microbiome/gemma.md) — community metabolic model + punch + concordance + Steiner subgraph
+- [HUMAnN3](microbiome/humann3.md) — MetaCyc pathway differential from shotgun reads
+- [MaAsLin2](microbiome/maaslin.md) — feature ↔ metadata linear-model associations *(coming soon)*
+
 ## Backend
 
 - [GIZMO](tools/gizmo.md) — the metabolite knowledge graph that powers network and annotation features
